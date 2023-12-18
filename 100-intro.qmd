@@ -1,0 +1,15 @@
+# Introduction
+
+The R Core Team defines *R* as an environment rather than a statistical system or a programming language. Even so, the *R* programming language is currently considered the *lingua franca* of statisticians and data scientists around the world.
+
+As open source software, *R* is not only the most popular and widely used statistical software in the world, it is also the ideal environment for sharing and collaborating on official statistics.
+
+The use of the *R* environment at Statistics Portugal is an established practice, not only in research projects but also in the production of official statistics. This environment provides, among other things, functions for preparing, cleaning and analyzing data, methodology, visualization and creating applications.
+
+Thus, the *1/2 houR* initiative aims to encourage the sharing of experiences in the use of *R* in the context of work both at INE and with other partners. To this end, short presentations will be given with concrete examples in which *R* is the working tool used. As with any other type of language, each user tends to resort to their own tricks and vices when developing their *R* scripts. Sharing these practices and possible discussions will be an asset for both presenters and attendees.
+
+At INE, due to its size and the fact that it is a decentralized institution, its employees don't always have a real perception of all the activities that are carried out here. The added value of teleworking and the current routine use of *Teams* means that INE's collaborators are only "a click away". This initiative also aims to make INE more inclusive by allowing its collaborators to share work being done within the institution.
+
+
+
+

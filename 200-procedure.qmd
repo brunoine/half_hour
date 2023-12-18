@@ -1,0 +1,28 @@
+# Procedures
+
+The short presentations of *1/2 houR* are aimed to INE (and its partners) staff who use the *R* environment in a routine work context (*useRs*).
+
+## *useRs*
+
+The *useRs* group is contacted periodically via e-mail with the schedule of presentations to be given, allowing anyone who is interested to propose themselves to give a short presentation or to propose a monthly theme.
+
+## *cuRators*
+
+Each month, one of the *useRs* is assigned as the *cuRator* who will define the theme of the presentations for their month and recruit other *useRs* to make the presentations. This *cuRator* will also serve as moderator of the weekly sessions, introducing the presenters and moderating Q&A.
+
+## Presentations
+
+The *1/2 houR* sessions are held weekly and are subject to a monthly theme. They are scheduled for every Wednesday at 12:00, unless force majeure prevents it. These presentations consist of examples of work developed or under development using the R environment.
+
+Each presentation should last up to 15 minutes and will be followed by questions and answers up to a maximum of 10 minutes.
+
+### Moderator's script
+
++ 12:00 start of the Teams session;
++ after a couple of minutes, the moderator disconnects the microphone from the participants and starts the session;
++ moderator's self-introduction: name, department / service, topic of the month;
++ introduction of the presenter: name, academic background (bachelor's / master's / doctorate); department / service; 
++ title of the presentation;
++ after the presentation, questions and answers about the presentation are moderated;
++ before calling the session to a close, the moderator informs about the presentation for the following week.
+

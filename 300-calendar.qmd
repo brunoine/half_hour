@@ -1,0 +1,60 @@
+# Calendar
+
+
+```{r config, include=F}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+
+source('R/fxs.R')
+```
+
+## 2024-01
+
+```{r}
+cal_mes(mes = 1, # mes a mostrar
+        feriados = 1, # dias que são feriados c(1,8,25)
+        meias = c(3,10,17,24, 31), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
+        apresenta = c('J. Poças \n DRGD/NDA', 'M. Matos \n CLBE', 
+                      'A. Cunha \n DRGD/NDA', 'J. Garra \n DRGD/NDA', 
+                      'C. Ribeiro \n DRGD/NDA')
+)
+
+```
+
+**_cuRator_**: João Poças; DRGD/SDAE/NDA
+
+Theme: [Núcleo de Dados Administrativos](presenations/202401/)
+
+## 2024-02
+
+```{r}
+cal_mes(mes = 2, # mes a mostrar
+        feriados = NA, # dias que são feriados c(1,8,25)
+        meias = c(7,14,21,28), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
+        apresenta = c('Fatih Tuzen \n Tuik', 'Jetske Marcelis \n CBS', 
+                      'Carlos Saez \n IÑE', 'Ruana Pavasare \n CSP')
+)
+
+```
+
+**_cuRator_**: Bruno Lima; DRGD/SDAE/NDA
+
+Theme: [1/2 houR going international](presenations/202402/)
+
+
+## 2024-03
+
+```{r}
+cal_mes(mes = 3, # mes a mostrar
+        feriados = 29, # dias que são feriados c(1,8,25)
+        meias = c(6,13,20), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
+        apresenta = c('*to be defined*', '*to be defined*',
+                      '*to be defined*')
+)
+
+```
+
+**_cuRator_**: *to be defined*
+
+Theme: [to be defined]()
+
+

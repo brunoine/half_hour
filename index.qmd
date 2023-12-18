@@ -1,0 +1,71 @@
+# hal-an-hour of R {.unnumbered}
+
+![](images\half-hour.png){width=60%}
+
+## Sponsored by:
+
+<br>
+
+![](images\ine_logo_principal_cores_863x315.png)
+
+
+<br>
+
+### Partners:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images\LOGO_DGS.png)
+
+:::
+
+::: {.column width="50%"}
+
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images\turkia.png){width=50%}
+
+:::
+
+::: {.column width="25%"}
+![](images\logoINE.gif){width=75%}
+
+:::
+
+::: {.column width="25%"}
+![](images\cbs.png){width=75%}
+
+:::
+
+::: {.column width="25%"}
+![](images\csp.png){width=50%}
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images\CLSBE_Logo.png){width=75%}
+
+:::
+
+::: {.column width="75%"}
+
+
+:::
+
+::::
+
+::: {.callout-note}
+Looking forward to add more value.
+:::
+
