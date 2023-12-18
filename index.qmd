@@ -1,4 +1,4 @@
-# hal-an-hour of R {.unnumbered}
+# half-an-hour of R {.unnumbered}
 
 ![](images\half-hour.png){width=60%}
 
