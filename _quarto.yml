@@ -7,7 +7,7 @@ book:
   author: "NDA"
   date: "2023-12-14"
   search: true
-  repo-url: "https://git.ine.pt/nda/meia_hora/half_hour.qmd"
+  repo-url: "https://github.com/brunoine/half_hour"
   repo-actions: [edit]
   downloads: [pdf, epub]
   body-footer: |
