@@ -4,10 +4,12 @@ project:
 
 book:
   title: "1/2 houR"
+  favicon: "favicon.png"
   author: "NDA"
   date: "2023-12-14"
   search: true
   repo-url: "https://github.com/brunoine/half_hour"
+  issue-url: "https://github.com/brunoine/half_hour/issues/new/choose"
   repo-actions: [edit]
   downloads: [pdf, epub]
   body-footer: |
