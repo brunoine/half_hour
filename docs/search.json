@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "1/2 houR",
+    "section": "",
+    "text": "half-an-hour of R"
+  },
+  {
+    "objectID": "index.html#sponsored-by",
+    "href": "index.html#sponsored-by",
+    "title": "1/2 houR",
+    "section": "Sponsored by:",
+    "text": "Sponsored by:\n\n\n\n\nPartners:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nLooking forward to add more value."
+  },
+  {
+    "objectID": "000-preface.html",
+    "href": "000-preface.html",
+    "title": "1  Preface",
+    "section": "",
+    "text": "Sharing knowledge among R users is a common practice and globally recognized as one of the success factors of this language. On the Internet, we find many sites where we can learn from R users from all over the world. We find experts in different fields and also people who have more goodwill than programming experience.\nWithin INE, there are many colleagues with experience in R and who use this tool in their daily work routines. However, sharing experiences of using R is often confined to very small teams. This initiative seeks to exchange relevant knowledge based on collaboration and the maintenance of productive interpersonal relationships. Let networking begin at home!\nThis document aims to compile short presentations, as part of the 1/2 houR (read: half-an-hour of R) initiative, with examples of the use of R programming in INE’s day-to-day activities and, where possible, other partners who want to share their experiences."
+  },
+  {
+    "objectID": "100-intro.html",
+    "href": "100-intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "The R Core Team defines R as an environment rather than a statistical system or a programming language. Even so, the R programming language is currently considered the lingua franca of statisticians and data scientists around the world.\nAs open source software, R is not only the most popular and widely used statistical software in the world, it is also the ideal environment for sharing and collaborating on official statistics.\nThe use of the R environment at Statistics Portugal is an established practice, not only in research projects but also in the production of official statistics. This environment provides, among other things, functions for preparing, cleaning and analyzing data, methodology, visualization and creating applications.\nThus, the 1/2 houR initiative aims to encourage the sharing of experiences in the use of R in the context of work both at INE and with other partners. To this end, short presentations will be given with concrete examples in which R is the working tool used. As with any other type of language, each user tends to resort to their own tricks and vices when developing their R scripts. Sharing these practices and possible discussions will be an asset for both presenters and attendees.\nAt INE, due to its size and the fact that it is a decentralized institution, its employees don’t always have a real perception of all the activities that are carried out here. The added value of teleworking and the current routine use of Teams means that INE’s collaborators are only “a click away”. This initiative also aims to make INE more inclusive by allowing its collaborators to share work being done within the institution."
+  },
+  {
+    "objectID": "200-procedure.html#users",
+    "href": "200-procedure.html#users",
+    "title": "3  Procedures",
+    "section": "3.1 useRs",
+    "text": "3.1 useRs\nThe useRs group is contacted periodically via e-mail with the schedule of presentations to be given, allowing anyone who is interested to propose themselves to give a short presentation or to propose a monthly theme."
+  },
+  {
+    "objectID": "200-procedure.html#curators",
+    "href": "200-procedure.html#curators",
+    "title": "3  Procedures",
+    "section": "3.2 cuRators",
+    "text": "3.2 cuRators\nEach month, one of the useRs is assigned as the cuRator who will define the theme of the presentations for their month and recruit other useRs to make the presentations. This cuRator will also serve as moderator of the weekly sessions, introducing the presenters and moderating Q&A."
+  },
+  {
+    "objectID": "200-procedure.html#presentations",
+    "href": "200-procedure.html#presentations",
+    "title": "3  Procedures",
+    "section": "3.3 Presentations",
+    "text": "3.3 Presentations\nThe 1/2 houR sessions are held weekly and are subject to a monthly theme. They are scheduled for every Wednesday at 12:00, unless force majeure prevents it. These presentations consist of examples of work developed or under development using the R environment.\nEach presentation should last up to 15 minutes and will be followed by questions and answers up to a maximum of 10 minutes.\n\n3.3.1 Moderator’s script\n\n12:00 start of the Teams session;\nafter a couple of minutes, the moderator disconnects the microphone from the participants and starts the session;\nmoderator’s self-introduction: name, department / service, topic of the month;\nintroduction of the presenter: name, academic background (bachelor’s / master’s / doctorate); department / service;\ntitle of the presentation;\nafter the presentation, questions and answers about the presentation are moderated;\nbefore calling the session to a close, the moderator informs about the presentation for the following week."
+  },
+  {
+    "objectID": "300-calendar.html#section",
+    "href": "300-calendar.html#section",
+    "title": "4  Calendar",
+    "section": "4.1 2024-01",
+    "text": "4.1 2024-01\n\n\n\n\n\ncuRator: João Poças; DRGD/SDAE/NDA\nTheme: Núcleo de Dados Administrativos"
+  },
+  {
+    "objectID": "300-calendar.html#section-1",
+    "href": "300-calendar.html#section-1",
+    "title": "4  Calendar",
+    "section": "4.2 2024-02",
+    "text": "4.2 2024-02\n\n\n\n\n\ncuRator: Bruno Lima; DRGD/SDAE/NDA\nTheme: 1/2 houR going international"
+  },
+  {
+    "objectID": "300-calendar.html#section-2",
+    "href": "300-calendar.html#section-2",
+    "title": "4  Calendar",
+    "section": "4.3 2024-03",
+    "text": "4.3 2024-03\n\n\n\n\n\ncuRator: to be defined\nTheme: to be defined"
+  }
+]
