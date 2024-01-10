@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "½ houR"
+  title: "1/2 houR"
   favicon: "images/favicon.png"
   author: "NDA"
   date: "2023-12-14"
