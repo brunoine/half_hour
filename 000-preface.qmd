@@ -1,8 +1,8 @@
-# Preface
+# Preface {.unnumbered}
 
 Sharing knowledge among *R* users is a common practice and globally recognized as one of the success factors of this language. On the Internet, we find many sites where we can learn from *R* users from all over the world. We find experts in different fields and also people who have more goodwill than programming experience.
 
-Within INE, there are many colleagues with experience in *R* and who use this tool in their daily work routines. However, sharing experiences of using *R* is often confined to very small teams. This initiative seeks to exchange relevant knowledge based on collaboration and the maintenance of productive interpersonal relationships. Let networking begin at home!
+Within Statistical Portugal (INE), there are many colleagues with experience in *R* and who use this tool in their daily work routines. However, sharing experiences of using *R* is often confined to very small teams. This initiative seeks to exchange relevant knowledge based on collaboration and the maintenance of productive interpersonal relationships. Let networking begin at home!
 
 This document aims to compile short presentations, as part of the *1/2 houR* (read: half-an-hour of R) initiative, with examples of the use of *R* programming in INE's day-to-day activities and, where possible, other partners who want to share their experiences.
 

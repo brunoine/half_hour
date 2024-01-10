@@ -1,0 +1,46 @@
+# Summary
+
+```{r config, include=F}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+
+source('R/fxs.R')
+library(tidyverse)
+
+users <- read_csv2("data/users.csv") %>% 
+  janitor::clean_names() %>% 
+  mutate(dep_serv = case_when(str_detect(departamento,'^DRGD/SD') ~ 'DRGD/DA',
+                              str_detect(departamento,'^DRGD/I') ~ 'DRGD/I',
+                              str_detect(departamento,'^DCN') ~ 'DCN',
+                              str_detect(departamento,'^DMSI/II') ~ 'DMSI/II',
+                              str_detect(departamento,'^DMSI/ME') ~ 'DMSI/ME',
+                              str_detect(departamento,'^DMSI/GEO') ~ 'DMSI/GEO',
+                              TRUE ~ 'outro')) 
+
+atendents <- read_csv2("data/1_2_houR_Attendance.csv") %>% 
+  janitor::clean_names() %>% 
+  mutate(session = as.Date(first_join, '%d/%m/%y'),
+         ano = lubridate::year(session)) %>%
+  select(session,ano, everything()) 
+
+
+total_sessoes2024 <- n_sessoes(ano = 2024) %>% nrow()
+med_sessao2024 <- round(mean(n_sessoes(ano = 2024)$n),1)
+
+```
+
+
+During 2024, a total of `r dif_users(ano = 2024)` different *useRs* took part in the 1/2 houR sessions (`r round(users_perc_f(ano = 2024),1)`% female). In total, there were `r total_sessoes2024` sessions and each session was attended by an average of `r med_sessao2024` people.
+
+```{r}
+#| fig-cap: 'Number of attendees at each ½houR session'
+
+bp2024 <- assit_sessao(dados = n_sessoes(ano = 2024),
+             media_sessoes = med_sessao2024)
+
+plotly::ggplotly(bp2024) # apenas funciona para se output for .html
+
+```
+
+
+
+

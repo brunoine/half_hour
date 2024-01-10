@@ -1,5 +1,7 @@
 # Procedures
 
+![](images/presenter2.png){width=50%}
+
 The short presentations of *1/2 houR* are aimed to INE (and its partners) staff who use the *R* environment in a routine work context (*useRs*).
 
 ## *useRs*

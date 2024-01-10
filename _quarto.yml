@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "1/2 houR"
-  favicon: "favicon.png"
+  title: "½ houR"
+  favicon: "images/favicon.png"
   author: "NDA"
   date: "2023-12-14"
   search: true
@@ -13,13 +13,14 @@ book:
   repo-actions: [edit]
   downloads: [pdf, epub]
   body-footer: |
-    ![](images\ine_logo_secundario_cores_491x57.png){width=50%}
+    ![](images/ine_logo_secundario_cores_491x57.png){width=50%}
   chapters:
     - index.qmd
     - 000-preface.qmd
     - 100-intro.qmd
     - 200-procedure.qmd
     - 300-calendar.qmd
+    - 400-sum.qmd
     - references.qmd
   page-navigation: true
 

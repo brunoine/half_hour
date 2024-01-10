@@ -1,12 +1,21 @@
-# half-an-hour of R {.unnumbered}
+# half-an-hour of **_R_** {.unnumbered}
 
-![](images\half-hour.png){width=60%}
+![](images/half-hour.png){width=60%}
+
+*If you love Statistics, you love `r icons::fontawesome$brands$"r-project"`!*
+
+
+```{r}
+#| echo: false
+#icons::fontawesome$brands$"r-project"
+```
+
 
 ## Sponsored by:
 
 <br>
 
-![](images\ine_logo_principal_cores_863x315.png)
+![](images/ine_logo_principal_cores_863x315.png)
 
 
 <br>

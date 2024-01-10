@@ -1,60 +1,128 @@
 # Calendar
 
+::: {.callout-tip collapse="true"}
+## *½ hoRa* em 2023
+
+As sessões de 2023 podem ser encontradas [aqui](http://intranet.ine.pt/intranet/drgd/hoRa/versao2023/index.html).
+:::
 
 ```{r config, include=F}
 knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 source('R/fxs.R')
+
+slido<- read_csv2("data/results.csv")
+
+img <- jpeg::readJPEG("images/bg1.jpg") 
 ```
 
-## 2024-01
+## 2024-01 {.unnumbered}
+
 
 ```{r}
 cal_mes(mes = 1, # mes a mostrar
+        subtitulo = "Núcleo de Dados Administrativos",
         feriados = 1, # dias que são feriados c(1,8,25)
         meias = c(3,10,17,24, 31), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
-        apresenta = c('J. Poças \n DRGD/NDA', 'M. Matos \n CLBE', 
-                      'A. Cunha \n DRGD/NDA', 'J. Garra \n DRGD/NDA', 
-                      'C. Ribeiro \n DRGD/NDA')
-)
+        apresenta = c('J. Poças \n DRGD/NDA', 'A. Cunha \n DRGD/NDA', 
+                      'B. Lima \n DRGD/NDA', 'J. Garra \n DRGD/NDA'
+                      ,'C. Ribeiro \n DRGD/NDA'
+                      ),
+        bg.img = "images/bg1.jpg"
+        ) 
 
 ```
 
 **_cuRator_**: João Poças; DRGD/SDAE/NDA
 
-Theme: [Núcleo de Dados Administrativos](presenations/202401/)
+### 2024-01-03 {.unnumbered}
 
-## 2024-02
+[½ hoRa em balanço](https://git.ine.pt/nda/meia_hora/half_hour.qmd/-/tree/master/presentations/202401/20240103)
+
+```{r}
+#| fig-width: 3
+#| fig-height: 2.5
+
+gg_slido(sess = 20240103)
+```
+
+### 2024-01-10 {.unnumbered}
+
+[Manutenção de ficheiros MS Access com R](https://git.ine.pt/nda/meia_hora/half_hour.qmd/-/tree/master/presentations/202401/20240110)
+
+```{r}
+#| fig-width: 3
+#| fig-height: 2.5
+gg_slido(sess = 20240110)
+```
+
+### 2024-01-17 {.unnumbered}
+
+[½ _houR_ website](https://git.ine.pt/nda/meia_hora/half_hour.qmd)
+
+```{r}
+#| fig-width: 3
+#| fig-height: 2.5
+#gg_slido(sess = 20240117)
+```
+
+### 2024-01-24 {.unnumbered}
+
+<!-- [cenas markdown](presenations/202401/20240124) -->
+
+```{r}
+#| fig-width: 3
+#| fig-height: 2.5
+# gg_slido(sess = 20240124)
+```
+
+### 2024-01-31 {.unnumbered}
+
+<!-- [cenas flexdashboard](presenations/202401/20240131) -->
+
+```{r}
+#| fig-width: 3
+#| fig-height: 2.5
+#gg_slido(sess = 20240131)
+```
+
+## 2024-02 {.unnumbered}
 
 ```{r}
 cal_mes(mes = 2, # mes a mostrar
+        subtitulo = "1/2 houR going international",
         feriados = NA, # dias que são feriados c(1,8,25)
         meias = c(7,14,21,28), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
         apresenta = c('Fatih Tuzen \n Tuik', 'Jetske Marcelis \n CBS', 
-                      'Carlos Saez \n IÑE', 'Ruana Pavasare \n CSP')
+                      'Carlos Saez \n IÑE', 'Ruana Pavasare \n CSP'),
+        bg.img = "images/bg1.jpg"
 )
 
 ```
 
 **_cuRator_**: Bruno Lima; DRGD/SDAE/NDA
 
-Theme: [1/2 houR going international](presenations/202402/)
+### 2024-02-07 {.unnumbered}
 
+<!-- [1/2 houR going international](presenations/202402/) -->
 
-## 2024-03
+## 2024-03 {.unnumbered}
+
 
 ```{r}
 cal_mes(mes = 3, # mes a mostrar
+        subtitulo = "R nas rotinas de análise da DGS",
         feriados = 29, # dias que são feriados c(1,8,25)
-        meias = c(6,13,20), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
+        meias = c(6,13,20, 27), # dias em que se realizam 1/2 hoRas c(2,8,15,22,29)
         apresenta = c('*to be defined*', '*to be defined*',
-                      '*to be defined*')
+                      '*to be defined*', '*to be defined*'),
+        bg.img = "images/bg1.jpg"
 )
 
 ```
 
-**_cuRator_**: *to be defined*
+**_cuRator_**: Eugénia Fernandes
 
-Theme: [to be defined]()
+
 
 
